@@ -1,0 +1,119 @@
+body {
+    position: relative;
+    display: flex;
+    
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.img-container {
+    position: relative;
+}
+
+.leaves-container {
+    position: relative;
+    height: 100%;
+}
+
+.leaves-background {
+    position: relative;
+    width: 400px;
+}
+
+.odin-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 15rem;
+    width:400px;
+}
+.odin-image {
+    height: 100px;
+   
+}
+
+.odin-text {
+    font-size: 20px;
+    color: white;
+}
+
+.inside-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
+
+.text-header-container > p, .middle-container > p {
+    font-weight: 600;
+}
+
+.text-header-container {
+    background-color: #F8F8F8;
+    padding: 1rem;
+}
+
+.middle-container {
+    background-color: white;
+    padding: 1rem;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 50vw;
+}
+
+.column-1, .column-2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    
+}
+
+label {
+    padding-top: 10px;
+    font-size: .8rem;
+    font-weight: 50;
+}
+
+
+input {
+    border-color: lightgray;
+    border-radius: 2px;
+    opacity: 35%;
+    
+}
+
+input:focus {
+    color: blue;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;;
+    
+}
+
+.bottom-container {
+    background-color: #F8F8F8;
+    height: 100%;
+    padding: 1rem;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+}
+
